@@ -61,7 +61,7 @@
     max-width: 100%;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-.icon-bx-wraper.style-6 p{min-height: 120px;margin: 0;}
+.icon-bx-wraper.style-6 p{min-height: 135px;margin: 0;}
 .content-inner-2 .row div[class*='col-']:nth-child(1) .icon-lg .icon-cell{background: url(../images/services/leader.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
 .content-inner-2 .row div[class*='col-']:nth-child(1):hover .icon-lg .icon-cell{background-position: 0px -60px;}
 .content-inner-2 .row div[class*='col-']:nth-child(2) .icon-lg .icon-cell{background: url(../images/services/product.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
