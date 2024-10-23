@@ -260,6 +260,7 @@ a, i, .btn, button, img, span, .navbar-nav .nav-link:before, .dropdown-item, .na
 .primary-footer, .primary-footer a{color: #ffffff;}
 .primary-footer h5{color: #000000; margin-bottom: 20px; text-transform: uppercase;}
 .primary-footer .list-unstyled li a, .primary-footer p{color: #000000;font-family: "Roboto", sans-serif;}
+.primary-footer .list-unstyled li a:hover, .primary-footer .list-unstyled li a:focus{text-decoration: underline!important;}
 
 .footer-contact {position: absolute; top: 0; width: 100%;}
 .footer-media{border-right: 1px dashed rgba(255,255,255,0.5); height: 100%;}

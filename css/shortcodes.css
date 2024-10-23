@@ -50,18 +50,18 @@
 .social-icons.social-colored a,
 .social-icons.social-hover a:hover{color:#fff; border:0;}
 
-.social-icons.social-colored .social-facebook a{background-color:#9d9d9d;}
+.social-icons.social-colored .social-facebook a{background-color:#56C2F0;}
 
-.social-icons.social-hover .social-facebook a:hover{background-color:#56C2F0;}
+.social-icons.social-hover .social-facebook a:hover{background-color:#9d9d9d;}
 
-.social-icons.social-colored .social-twitter a{background-color:#9d9d9d;}
-.social-icons.social-hover .social-twitter a:hover{background-color:#56C2F0;}
-.social-icons.social-colored .social-linkedin a{background-color:#9d9d9d;}
-.social-icons.social-hover .social-linkedin a:hover{background-color:#56C2F0;}
+.social-icons.social-colored .social-twitter a{background-color:#56C2F0;}
+.social-icons.social-hover .social-twitter a:hover{background-color:#9d9d9d;}
+.social-icons.social-colored .social-linkedin a{background-color:#56C2F0;}
+.social-icons.social-hover .social-linkedin a:hover{background-color:#9d9d9d;}
 
-.social-icons.social-colored .social-gplus a{background-color:#9d9d9d;}
-.social-icons.social-hover .social-gplus a:hover{background-color:#56C2F0;}
-.social-icons.social-colored .social-facebook a:hover, .social-icons.social-colored .social-twitter a:hover, .social-icons.social-colored .social-linkedin a:hover, .social-icons.social-colored .social-gplus a:hover{background-color: #56C2F0;}
+.social-icons.social-colored .social-gplus a{background-color:#56C2F0;}
+.social-icons.social-hover .social-gplus a:hover{background-color:#9d9d9d;}
+.social-icons.social-colored .social-facebook a:hover, .social-icons.social-colored .social-twitter a:hover, .social-icons.social-colored .social-linkedin a:hover, .social-icons.social-colored .social-gplus a:hover{background-color: #9d9d9d;}
 
 
 /*** Border ***/
