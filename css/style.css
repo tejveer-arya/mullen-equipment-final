@@ -24,8 +24,8 @@
     General
 ------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+/* font-family: "Lora", serif; */
 body {font-family: "Roboto", sans-serif; font-weight: normal; font-style: normal; font-size: 15px; line-height: 1.5; color:#282929;}
 
 
@@ -41,7 +41,7 @@ h4 { font-size: 20px; font-style: normal; text-transform: capitalize; margin-bot
 h5 { font-size: 18px; font-style: normal; text-transform: capitalize; margin-bottom: 10px; font-weight: 500; line-height: 26px; color: #23244a;}
 h6 { font-size: 16px; font-style: normal; line-height: 24px; }
 ul { margin: 0px; padding: 0px; }
-p{font-family: "Lora", serif;font-size: 15px;}
+p{font-size: 15px;}
 
 
 /* ------------------------
@@ -57,21 +57,52 @@ section{padding: 80px 0;}
 .theme-bg .section-title p, .dark-bg .section-title p{color: rgba(255,255,255,0.8)}
 .about-us h5{margin-top: 10px;margin-bottom: 20px;}
 
+.mullen-images{display: block;overflow: hidden;}
+.mullen-images img{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-ms-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
+.mullen-images:hover img{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}
+.life-at-mullen .d-flex{justify-content: end;}
+.life-at-mullen .banner-slider.owl-carousel{width: 480px;margin-top: -120px;margin-right: 50px;}
 .life-at-mullen h5{font-weight:700}
-.life-at-mullen .card{flex-direction: row;align-items: center;padding: 20px 15px;min-height: 170px;border-radius: 0;}
+.life-at-mullen .card{flex-direction: row;align-items: center;padding: 20px 15px;min-height: 180px;border-radius: 0;width:480px}
+.life-at-mullen .card .card-text{padding-bottom: 40px;}
 .life-at-mullen .card>div:first-child{margin-right: 20px;}
-.life-at-mullen .row div[class*='col-']:nth-child(1) .card .card-img-top{background: url(../images/life-mullen/planet-earth.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
-.life-at-mullen .row div[class*='col-']:nth-child(1):hover .card .card-img-top{background-position: 0px -60px;}
-.life-at-mullen .row div[class*='col-']:nth-child(2) .card .card-img-top{background: url(../images/life-mullen/united.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
-.life-at-mullen .row div[class*='col-']:nth-child(2):hover .card .card-img-top{background-position: 0px -60px;}
-.life-at-mullen .row div[class*='col-']:nth-child(3) .card .card-img-top{background: url(../images/life-mullen/motivation.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
-.life-at-mullen .row div[class*='col-']:nth-child(3):hover .card .card-img-top{background-position: 0px -60px;}
-.life-at-mullen .row div[class*='col-']:nth-child(4) .card .card-img-top{background: url(../images/life-mullen/team-leader.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
-.life-at-mullen .row div[class*='col-']:nth-child(4):hover .card .card-img-top{background-position: 0px -60px;}
-.life-at-mullen .row div[class*='col-']:nth-child(5) .card .card-img-top{background: url(../images/life-mullen/customer-service.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
-.life-at-mullen .row div[class*='col-']:nth-child(5):hover .card .card-img-top{background-position: 0px -60px;}
-.life-at-mullen .row div[class*='col-']:nth-child(6) .card .card-img-top{background: url(../images/life-mullen/economic.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
-.life-at-mullen .row div[class*='col-']:nth-child(6):hover .card .card-img-top{background-position: 0px -60px;}
+.life-at-mullen .card-1 .card-img-top{background: url(../images/life-mullen/planet-earth.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
+.life-at-mullen .card-1:hover .card-img-top{background-position: 0px -60px;}
+.life-at-mullen .card-2 .card-img-top{background: url(../images/life-mullen/united.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
+.life-at-mullen .card-2:hover .card-img-top{background-position: 0px -60px;}
+.life-at-mullen .card-3 .card-img-top{background: url(../images/life-mullen/motivation.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
+.life-at-mullen .card-3:hover .card-img-top{background-position: 0px -60px;}
+.life-at-mullen .card-4 .card-img-top{background: url(../images/life-mullen/team-leader.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
+.life-at-mullen .card-4:hover .card-img-top{background-position: 0px -60px;}
+.life-at-mullen .card-5 .card-img-top{background: url(../images/life-mullen/customer-service.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
+.life-at-mullen .card-5:hover .card-img-top{background-position: 0px -60px;}
+.life-at-mullen .card-6 .card-img-top{background: url(../images/life-mullen/economic.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
+.life-at-mullen .card-6:hover .card-img-top{background-position: 0px -60px;}
+.life-at-mullen .banner-slider.owl-carousel .owl-dots .owl-dot span{width: 10px;height: 10px;}
+.life-at-mullen .banner-slider.owl-carousel .owl-dots .owl-dot span::before{width:18px;height:18px}
+.life-at-mullen .banner-slider.owl-carousel .owl-dots{bottom: 40px;}
+.latest-news .post-img{position: relative;display: block;overflow: hidden;}
+.latest-news .post-img img{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-ms-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
+.latest-news .post-img:hover img, .latest-news .post-img:focus img{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}
+.latest-news .post-content{position: absolute;padding: 15px;color: #ffffff;z-index: 9;bottom:0}
+.latest-news .post-content h4{color: #ffffff;}
+.latest-news .post-content p{color: #ffffff;margin:0}
+.latest-news .post-img:before{position: absolute;content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%; 
+    z-index:9;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    }
+  .latest-news .news-left{background-color: rgba(86,194,240,0.2);padding: 30px;height: 100%;}
+  .latest-news .news-left h3{margin-bottom: 15px;font-weight: 600;}
+  .latest-news .news-left ul li p{background-color: transparent;padding: 0;margin: 0;}
+  .latest-news .news-left p{margin: 30px 0 0 0;background-color: rgba(255, 255, 255, 0.5);padding: 15px;}
+  .latest-news .news-left ul{list-style: none;padding: 0;margin: 0;}
+  .latest-news .news-left ul li h4{margin-bottom: 10px;}
+  .latest-news .news-left ul li{padding: 15px 0;border-top: 1px solid rgba(90, 90, 90, 0.22);}
 
 .line-h-2{line-height: 1.6;}
 .line-h-3{line-height: 1.7;}

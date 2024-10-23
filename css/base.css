@@ -253,14 +253,13 @@ a, i, .btn, button, img, span, .navbar-nav .nav-link:before, .dropdown-item, .na
 /* ------------------------
     Footer
 ------------------------*/
-.footer{padding-top: 8rem; margin-top: 6rem;}
+.footer{padding-top: 8rem; margin-top: 6rem;box-shadow: 0 0 10px rgba(0,0,0,0.1);}
 .primary-footer{padding: 50px 0;}
 .secondary-footer{padding: 15px 0; background: #191919; color: #ffffff;}
 .footer-logo img{height: 50px;}
 .primary-footer, .primary-footer a{color: #ffffff;}
-.primary-footer h5{color: #ffffff; margin-bottom: 20px; text-transform: uppercase;}
-.primary-footer .list-unstyled{display: flex;justify-content: center;}
-.primary-footer .list-unstyled li a{color: #56C2F0;}
+.primary-footer h5{color: #000000; margin-bottom: 20px; text-transform: uppercase;}
+.primary-footer .list-unstyled li a, .primary-footer p{color: #000000;font-family: "Roboto", sans-serif;}
 
 .footer-contact {position: absolute; top: 0; width: 100%;}
 .footer-media{border-right: 1px dashed rgba(255,255,255,0.5); height: 100%;}
@@ -276,7 +275,7 @@ footer.dark-bg .social-icons li a{color: rgba(255,255,255,0.6);}
 .footer-list li i{margin-right: 0px; font-size: 12px; vertical-align: middle;}
 .copyright li{margin:0}
 
-.footer-list li a:hover{color: #ffffff;}
+.footer-list li a:hover{color: #005f90;}
 .footer-list li a:hover:before{width: 50px;}
 
 

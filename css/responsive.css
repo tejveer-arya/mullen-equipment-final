@@ -2,7 +2,13 @@
 /* ------------------------
     Responsive Css
 ------------------------*/
-
+@media (max-width: 1400px){
+.latest-news .news-left ul li p{background-color: transparent;padding: 0;}
+  .latest-news .news-left p{margin: 0;background-color: rgba(255, 255, 255, 0.5);padding: 15px;}
+  .latest-news .news-left ul{list-style: none;padding: 0;margin: 0;}
+  .latest-news .news-left ul li h4{margin: 0;}
+  .latest-news .news-left ul li{padding: 15px 0;border-top: 1px solid rgba(90, 90, 90, 0.22);}
+}
 @media (max-width: 1200px){
     h1{font-size: 60px; line-height: 70px;}
     
