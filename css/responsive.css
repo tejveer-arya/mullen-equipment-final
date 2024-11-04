@@ -2,6 +2,9 @@
 /* ------------------------
     Responsive Css
 ------------------------*/
+@media (min-width: 1400px){
+.industries-we-serve .row div[class*='col']{max-width: 200px;}
+}
 @media (max-width: 1400px){
 .latest-news .news-left ul li p{background-color: transparent;padding: 0;}
   .latest-news .news-left p{margin: 0;background-color: rgba(255, 255, 255, 0.5);padding: 15px;}

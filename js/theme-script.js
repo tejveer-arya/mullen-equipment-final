@@ -158,7 +158,33 @@ function owlcarousel() {
     });
   });
 };
-
+$('.brand_slider').owlCarousel({
+  autoplay:true,
+  autoplayTimeout: 3600,
+  loop:true,
+  margin:0,
+  nav:true,
+  items:6,
+  dots:false,
+  responsive:{
+      0:{
+          items:1,
+          dots:true
+      },
+      480:{
+        items:2
+      },
+      576:{
+          items:3
+      },
+      768:{
+          items:4
+      },
+      992:{
+          items:5
+      }
+  }
+});
 
 /*------------------------------------
   HT Magnific Popup
