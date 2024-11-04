@@ -275,6 +275,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
 .contact-form.open{right:0px}
 .close-btn {background: #56C2F0; color: #fff !important; cursor: pointer; font-weight: bold; padding: 7px 15px; position: absolute; right: 20px; top: 10px;}
 .header-3 .contact-btn{position: inherit; transform: inherit; top: inherit; right: inherit;}
+
 .header-3 .btn-theme {
     background: #56C2F0;
     box-shadow: none;
@@ -287,7 +288,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
     -ms-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
-.header-3 .navbar-nav .nav-link .flaticon-magnifier, .search-input-area .flaticon-magnifier{font-size: 18px;}
+.header-3 .navbar-nav .nav-link .flaticon-magnifier, .search-input-area .flaticon-magnifier, .flaticon-magnifier{font-size: 18px;}
 .search-input-area.show {
     visibility: visible;
     transform: inherit;
@@ -358,7 +359,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
   }
   @media (max-width: 500px) {
     .search-input-area .search-close-icon {
-      display: none;
+      display: block;
     }
   }
   .search-input-area .search-close-icon i {

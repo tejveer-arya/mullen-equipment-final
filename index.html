@@ -34,8 +34,11 @@
                     <a class="navbar-brand logo" href="javascript:void(0)">
                       <img id="logo-img" class="img-fluid" src="images/logo.png" alt="">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-                    </button>
+                
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                      </button>
+                    
+                    
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                       <!-- Left nav -->
                       <ul class="nav navbar-nav ms-auto">
@@ -172,14 +175,19 @@
                         <li class="nav-item"> <a class="nav-link" href="#">FAQs</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a></li>
                         <li class="nav-item"> <a class="nav-link" href="#">Blog</a></li>
-                        <li id="search" class="nav-item search">
+                        <li id="search" class="nav-item search d-none d-lg-block">
                           <a class="nav-link" href="#"><i class="flaticon-magnifier"></i></a>
                         </li>
                       </ul>
                     </div>
-                    <a class="contact-btn">
-                        <a href="tel:+1-2486438120" class="btn btn-theme call-icon btn-radius animated7"><i class="flaticon-phone-call"></i><span class="sr-only">Phone Icon</span></span> (248) 643 8120</a>
-                      </a>
+                    <div class="d-flex gap-3 justify-content-center align-items-center">
+                      <div id="search" class="nav-item search d-block d-lg-none">
+                        <a class="nav-link" href="#"><i class="flaticon-magnifier"></i></a>
+                      </div>
+                      <div class="contact-btn">
+                          <a href="tel:+1-2486438120" class="btn btn-theme call-icon btn-radius animated7"><i class="flaticon-phone-call"></i><span class="phone-num"> (248) 643 8120</span></a>
+                      </div>
+                    </div>
                   </nav>
                 </div>
               </div>
@@ -198,8 +206,11 @@
                 <h5 class="text-white mb-3 letter-space-3 animated6">SINCE 1950</h5>
                 <h1 class="text-white mb-3 animated8">Your Trusted Partner for Advanced Industrial Solutions</h1> 
                 <p class="lead text-white animated5 mb-3">Innovative
-                    equipment and tailored solutions for the chemical, pharmaceutical, and industrial sectors.</p> <a class="btn btn-theme btn-radius animated7" href="javascript:void(0)">Explore Our Solutions</a>
+                    equipment and tailored solutions for the chemical, pharmaceutical, and industrial sectors.</p> 
+                <div class="d-flex flex-sm-row flex-column justify-content-center">
+                <a class="btn btn-theme btn-radius animated7 mb-3 mb-sm-0" href="javascript:void(0)">Explore Our Solutions</a>
                 <a class="btn btn-border btn-radius animated6" href="javascript:void(0)">Contact Our Experts</a>
+                </div>
               </div>
             </div>
           </div>
@@ -214,8 +225,11 @@
                 <h1 class="text-white mb-3 animated8">Leading the Way in Eco-Friendly Process Solutions</h1> 
                 <p class="lead text-white animated5 mb-3">From
                     wastewater treatment to dry scrubbers, Mullen Equipment offers sustainable systems that
-                    reduce your carbon footprint and boost efficiency.</p> <a class="btn btn-theme btn-radius animated7" href="javascript:void(0)">Discover Sustainable Solutions</a>
+                    reduce your carbon footprint and boost efficiency.</p>
+                    <div class="d-flex flex-sm-row flex-column justify-content-center">
+                <a class="btn btn-theme btn-radius animated7 mb-3 mb-sm-0" href="javascript:void(0)">Discover Sustainable Solutions</a>
                 <a class="btn btn-border btn-radius animated6" href="javascript:void(0)">Get a Custom Quote</a>
+              </div>
               </div>
             </div>
           </div>
@@ -230,8 +244,11 @@
                 <h1 class="text-white mb-3 animated8">Innovative Tools to Power Your Industrial Operations</h1> 
                 <p class="lead text-white animated5 mb-3">Enhance
                     your processes with our heat transfer systems, pumps, and vacuum technology—all backed
-                    by 75 years of expertise.</p> <a class="btn btn-theme btn-radius animated7" href="javascript:void(0)">See Our Product Range</a>
+                    by 75 years of expertise.</p>
+                    <div class="d-flex flex-sm-row flex-column justify-content-center">
+                <a class="btn btn-theme btn-radius animated7 mb-3 mb-sm-0" href="javascript:void(0)">See Our Product Range</a>
                 <a class="btn btn-border btn-radius animated6" href="javascript:void(0)">Request a Consultation</a>
+              </div>
               </div>
             </div>
           </div>
@@ -1026,7 +1043,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 mt-5 mt-md-0">
             <h5>About<span class="text-theme"> Mullen Equipment</span></h5>
             <p class="mb-3">Based in Troy, Michigan, Mullen Equipment has been a successful industrial equipment representative and chemical equipment distributor in the Midwest since 1950. Generating significant sales for our principals in the Chemical industry products sector, Pharmaceutical process solutions, Petrochemical industry, Industrial sector services, Municipal solutions, Food & Beverage, Paper & Pulp and various other industries. Today, we continue to expand our reach and areas of expertise through excellent service to our customers and principals.</p> 
           </div>

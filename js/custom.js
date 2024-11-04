@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    $('.contact-btn, .black-banner .btn-theme').click(function(){
+    $('.contact-btn .contact-bg').click(function(){
         $('.contact-form').addClass('open');
     });
 
     $('.close-btn').click(function(){
         $('.contact-form').removeClass('open');
     });
-    $('#search').click(function(){
+    $('.search').click(function(){
         $('.search-input-area').addClass('show');
     });
     $('#close').click(function(){
