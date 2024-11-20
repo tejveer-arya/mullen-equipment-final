@@ -1,32 +1,6 @@
-/* ------------------------------------------------
-  Project:   Misto - Factory and Industrial HTML5 Template
-  Author:    ThemeHt
------------------------------------------------- */
-/* ------------------------
-    Table of Contents
 
-  1. Predefined Variables
-  2. Preloader  
-  3. FullScreen
-  4. Menu
-  5. Owl carousel
-  6. Counter
-  7. Magnific Popup
-  8. Isotope
-  9. Scroll to top
-  10. Banner Section
-  11. Fixed Header
-  12. Text Color, Background Color And Image
-  13. Contact Form
-  14. ProgressBar
-  15. Masonry
-  16. Countdown
-  17. Parallax
-  18. Particles
-  19. HT Window load and functions
-  
 
------------------------- */
+
 
 "use strict";
 
@@ -166,6 +140,7 @@ $('.brand_slider').owlCarousel({
   nav:true,
   items:6,
   dots:false,
+  navText: ['<span class="fas fa-chevron-left"><span>', '<span class="fas fa-chevron-right"></span>'],
   responsive:{
       0:{
           items:1,

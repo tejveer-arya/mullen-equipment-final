@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $('.contact-btn .contact-bg').click(function(){
-        $('.contact-form').addClass('open');
+        $('.contact-form-fix').addClass('open');
     });
 
     $('.close-btn').click(function(){
-        $('.contact-form').removeClass('open');
+        $('.contact-form-fix').removeClass('open');
     });
     $('.search').click(function(){
         $('.search-input-area').addClass('show');
