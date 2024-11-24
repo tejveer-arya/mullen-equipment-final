@@ -188,7 +188,53 @@ industries-serve-section
   border:1px solid rgba(0, 0, 0, 0.1)
 }
 .blog-left-content .content p{min-height: 68px;}
+.our-services .card{border:none}
+.our-services .card .card-body .card-title{color:#56C2F0}
+.our-services .card-body .card-text{min-height: 140px;}
+.our-services .card-body img{height: 100%;object-fit: cover;}
+.our-services .card-body img.rounded-start {
+  border-bottom-left-radius: 1.25rem!important;
+  border-top-left-radius: 1.25rem!important;
+}
+.our-services .card-body ul{display: flex;flex-wrap: wrap;}
+.our-services .card-body ul li{position: relative;padding-left: 30px;list-style: none;line-height: 18px;
+  margin-bottom: 15px;margin-right: 15px;}
+.our-services .card-body h6{margin-bottom: 10px;font-weight: 700;}
+.our-services .card-body>.row{margin-bottom: 24px;gap: 48px;justify-content: space-between;}
+.our-services .card-body>.row>div[class*='col-']{width:calc(50% - 24px);box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) !important;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1) !important;border-radius: 20px;overflow: hidden;}
+  .our-services .card-body>.row>div[class*='col-'] img{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-ms-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;display: block;}
+  .our-services .card-body>.row>div[class*='col-']:hover img{-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
 
+
+
+.our-services .card-body ul li:before {
+  position: absolute;
+  content:'';
+  left: 0;
+  right: auto;
+	width: 17px;
+	height: 17px;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 5px;
+}
+.our-services .card-body ul li:after {
+	width: 6px;
+	height: 6px;
+	background: #000000;
+	border-radius: 50%;
+	display: block;
+	position:absolute;
+  content:'';
+	z-index: 11;
+  left: 10.5px;
+  top: 5.2px;
+  transform: none;
+	margin: auto;
+}
 
 /* ------------------------
     Text color
