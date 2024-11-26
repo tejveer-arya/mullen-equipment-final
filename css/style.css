@@ -596,7 +596,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
   position: relative;
   margin-bottom: 20px;
 }
-.form-box input, .events-calender .form-select {
+.form-box input, .events-calender .form-select, .form-box .form-select {
   width: 100%;
   border-radius: 5px;
   height: 54px;
@@ -605,6 +605,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
   outline: 0;
   padding: 0 25px;
   box-shadow: none;
+  color:#6b7a7a;
 }
 .form-box i {
   position: absolute;
