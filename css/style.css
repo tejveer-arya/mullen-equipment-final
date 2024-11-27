@@ -191,7 +191,7 @@ industries-serve-section
 .our-services .card{border:none}
 .our-services .card .card-body .card-title{color:#56C2F0}
 .our-services .card-body .card-text{min-height: 140px;}
-.our-services .card-body img{height: 100%;object-fit: cover;}
+.our-services .card-body img{height: 360px;object-fit: cover;}
 .our-services .card-body img.rounded-start {
   border-bottom-left-radius: 1.25rem!important;
   border-top-left-radius: 1.25rem!important;

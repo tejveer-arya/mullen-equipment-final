@@ -137,6 +137,7 @@
     
     .iframe-h{height: 300px !important;}
     .html5-video video {width: auto;}
+    .our-services .card-body img{height: auto;object-fit: cover;border-radius: 1.25rem;}
     
     /*Footer*/
     .footer {padding-top: 6rem; margin-top: 0;}
