@@ -167,7 +167,7 @@ industries-serve-section
 .what-we-do.industries-we-serve .choose_list h4{color: #56C2F0;}
 .what-we-do.industries-we-serve .choose_list p{color: #282929;}
 .products-we-serve.industries-we-serve .row{gap: 50px;}
-.products-we-serve.industries-we-serve{background: none;margin-bottom: 170px;}
+.products-we-serve.industries-we-serve{background: none;margin-bottom: 80px;}
 .products-we-serve.industries-we-serve:before{background-color: transparent;}
 .products-we-serve.industries-we-serve .row div[class*='col'] {
   flex: 1 1 25%;
@@ -404,6 +404,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
     justify-content: center;
     align-items: center;
   }
+  .agitators-mixers .box-content p{color: #757575;}
   @media only screen and (max-width: 479px) {
     .search-input-area {
       padding: 20px 0;
@@ -792,6 +793,17 @@ box-shadow: 0 0 25px rgba(0,0,0,0.1);}
           .expertise-fullbox .expertise-box .image{min-height: 76px; line-height: 70px;}
 .expertise-fullbox .expertise-box .image img{width:150px}
 .glass-lined.expertise-fullbox .expertise-box{width: calc(50% - 30px);background-color: transparent;}
+.ht-mixer .expertise-fullbox .expertise-box{width: calc(50% - 30px);}
+.specifications{border: 1px solid #eee;}
+.specifications thead th, .specifications tr th {
+  color: #555;
+  font-weight: 700;
+  padding: 9px 24px;
+}
+.specifications tr td {
+  border-top: 1px solid #eee;
+  padding: 6px 24px;
+}
 
 .expertise-content-header h3{
 	font-size: 20px;
@@ -1088,3 +1100,79 @@ section.contact_area.inner_section {
   border-color: #56C2F0;
   background-image: var(--bs-accordion-btn-hover-icon);
 }
+/******************************youtube-video***********************************/
+.image-container {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  min-height: 480px;
+}
+.image-container svg{
+  position: absolute;
+  width:60px;
+  height:60px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% -50%);
+  bottom: auto;
+  right: auto;
+}
+.image-container img, .video-player iframe {
+  width: 100%;
+  height: 480px;
+}
+
+.mec-process-equipment span{
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  padding: 1rem;
+  margin: 0 auto 30px;
+  border: 2px solid #002b7c;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #002b70;
+  box-shadow: 0px 0px 2px 0px #333333;
+}
+
+.video-player {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ht-mixer .imfo-tanks.expertise-fullbox .expertise-box{
+  width: calc(100% - 30px);
+}
+.heat-exchangers.our-services .card-body ul li:before{top: 5px;}
+.heat-exchangers.our-services .card-body ul li:after{top: 10px;}
+.pickheaters-products .filter-bar .btn-primary{display: flex;color: #333333;border-top:1px solid transparent;border-right:1px solid transparent;border-left:1px solid transparent;border-bottom:1px solid rgba(0,0,0,0.1);}
+.pickheaters-products .btn-primary:hover, .pickheaters-products .btn-primary:focus{background-color: transparent;}
+.pickheaters-products .filter-bar .btn-primary:before{
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #333333;
+  border-left: 2px solid #333333;
+  background-color: #ffffff;
+  right: 5px;
+  left: auto;
+  top: 50%;
+  border-radius: 1px;
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.pickheaters-products .filter-bar .btn-primary.collapsed:before{
+transform: rotate(-135deg);
+}
+.pickheaters-products .filter-bar .card-body{border:none}
+.pickheater-products-inner.expertise-fullbox .expertise-box{width: calc(50% - 30px);}
+.pickheater-products-inner.expertise-fullbox .expertise-box p{min-height: auto;}

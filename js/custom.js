@@ -62,3 +62,35 @@ document.addEventListener('DOMContentLoaded', function () {
 //     $(".search-input-area").removeClass("show");
 //     $("#anywhere-home").removeClass("bgshow");
 //   });
+
+function playYouTubeVideo() {
+  const videoPlayer = document.getElementById('videoPlayer');
+  const iframe = document.getElementById('youtubeIframe');
+  const thumbnail = document.getElementById('thumbnail');
+
+  if (videoPlayer.style.display === 'none' || !videoPlayer.style.display) {
+    videoPlayer.style.display = 'block';
+    thumbnail.style.display = 'none';
+    iframe.src = 'https://www.youtube.com/embed/lJzSp0nukLY?autoplay=1';
+  } else {
+    videoPlayer.style.display = 'none';
+    thumbnail.style.display = 'block';
+    iframe.src = '';
+  }
+}
+
+function playYouTubeVideo2() {
+  const videoPlayer = document.getElementById('videoPlayer2');
+  const iframe = document.getElementById('youtubeIframe2');
+  const thumbnail = document.getElementById('thumbnail2');
+
+  if (videoPlayer.style.display === 'none' || !videoPlayer.style.display) {
+    videoPlayer.style.display = 'block';
+    thumbnail.style.display = 'none';
+    iframe.src = 'https://www.youtube.com/embed/TQ5EVgHf8Is?autoplay=1';
+  } else {
+    videoPlayer.style.display = 'none';
+    thumbnail.style.display = 'block';
+    iframe.src = '';
+  }
+}
