@@ -7,7 +7,8 @@
     margin-bottom: 40px;
 }
 .service-area-1 .section-head {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    margin-bottom: 0px;
 }
 .section-head.style-1 .sub-title {
     display: inline-flex;
@@ -75,6 +76,7 @@
 .content-inner-2 .row div[class*='col-']:nth-child(6) .icon-lg .icon-cell{background: url(../images/services/industrial-park.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
 .content-inner-2 .row div[class*='col-']:nth-child(6):hover .icon-lg .icon-cell{background-position: 0px -60px;}
 .content-inner-2 .row div[class*='col-']:nth-child(1), .content-inner-2 .row div[class*='col-']:nth-child(2), .content-inner-2 .row div[class*='col-']:nth-child(3){margin-bottom: 24px;}
+.content-inner-2.service-area-1 .row div[class*='col-']:nth-child(2){margin-bottom: 0px;}
 .content-inner-2 .row div[class*='col-']:hover .icon-bx-wraper.style-6{background-color: #56C2F0;}
 .content-inner-2 .row div[class*='col-']:hover .icon-bx-wraper.style-6 .dz-title{border-bottom: 1px solid rgba(255,255,255,0.4);}
 .content-inner-2 .row div[class*='col-']:hover .icon-bx-wraper.style-6 .dz-title, .content-inner-2 .row div[class*='col-']:hover .icon-bx-wraper.style-6 p{color: #ffffff;}
