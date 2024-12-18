@@ -40,14 +40,15 @@ section{padding: 80px 0;}
 .theme-bg .section-title p, .dark-bg .section-title p{color: rgba(255,255,255,0.8)}
 .about-us h5{margin-top: 10px;margin-bottom: 20px;}
 
-.mullen-images{display: block;overflow: hidden;}
+.mullen-images{overflow: hidden;max-width: 100%;padding: 15px;width: 475px;
+  float: right;max-width:100%;background-color: var(--whiteColor);box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);}
 .mullen-images img{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-ms-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
-.mullen-images:hover img{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}
+.mullen-images:hover img{-webkit-transform: scale(1.01);-moz-transform: scale(1.01);-ms-transform: scale(1.01);transform: scale(1.01);}
 .life-at-mullen .d-flex{justify-content: end;}
-.life-at-mullen .banner-slider.owl-carousel{width: 480px;margin-top: -120px;margin-right: 50px;}
+/* .life-at-mullen .banner-slider.owl-carousel{width: 480px;margin-top: -120px;margin-right: 150px;} */
 .life-at-mullen h5{font-weight:700}
-.life-at-mullen .card{flex-direction: row;align-items: center;padding: 20px 15px;min-height: 180px;border-radius: 0;width:480px}
-.life-at-mullen .card .card-text{padding-bottom: 40px;}
+.life-at-mullen .card{flex-direction: row;align-items: center;padding: 20px 30px;min-height: 180px;border-radius: 0;width:480px}
+.life-at-mullen .card .card-text{padding-bottom: 0px;}
 .life-at-mullen .card>div:first-child{margin-right: 20px;}
 .life-at-mullen .card-1 .card-img-top{background: url(../images/life-mullen/planet-earth.png) center center no-repeat;width: 60px;height: 60px;display: block;background-position: 0px 0px;}
 .life-at-mullen .card-1:hover .card-img-top{background-position: 0px -60px;}
@@ -63,7 +64,11 @@ section{padding: 80px 0;}
 .life-at-mullen .card-6:hover .card-img-top{background-position: 0px -60px;}
 .life-at-mullen .banner-slider.owl-carousel .owl-dots .owl-dot span{width: 10px;height: 10px;}
 .life-at-mullen .banner-slider.owl-carousel .owl-dots .owl-dot span::before{width:18px;height:18px}
-.life-at-mullen .banner-slider.owl-carousel .owl-dots{bottom: 40px;}
+.life-at-mullen .banner-slider.owl-carousel .owl-dots{bottom: -30px;
+  padding-left: 25px;
+  top: auto;
+  left: 0;
+  transform: none;}
 .latest-news .post-img{position: relative;display: block;overflow: hidden;}
 .latest-news .post-img img{-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-ms-transition: all 0.5s ease 0s;transition: all 0.5s ease 0s;}
 .latest-news .post-img:hover img, .latest-news .post-img:focus img{-webkit-transform: scale(1.05);-moz-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}
