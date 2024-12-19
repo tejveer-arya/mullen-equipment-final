@@ -283,7 +283,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56C2F0', end
 .testimonial.style-2 .testimonial-avatar {left: 50%; margin-top: 0; position: absolute; width: 100px; height: 100px; z-index: 9;}
 .testimonial.style-2 .testimonial-avatar img{border-color: #ffffff}
 .testimonial.style-2 .testimonial-content {background: #ffffff; display: inline-block; font-size: 16px; font-style: italic; font-weight: 400; line-height: 30px; padding: 30px; position: relative; vertical-align: middle;}
-.testimonial.style-3 {padding: 30px; margin-top: 50px;}
+.testimonial.style-3 {padding: 15px; margin-top: 50px; min-height: 322px;}
 .testimonial.style-3 .testimonial-avatar {margin-bottom: 20px; width: 100px; height: 100px; display: inline-block;}
 .testimonial.style-3 .testimonial-content span {bottom: 0; color: rgba(0,0,0,0.3); font-size: 90px; font-weight: bold; left: 0; line-height: 40px; margin-bottom: 0; opacity: 0.1; position: absolute;}
 .dark-bg .testimonial.style-3 { background: rgba(255,255,255,0.05);}
