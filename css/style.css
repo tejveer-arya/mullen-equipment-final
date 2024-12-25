@@ -802,6 +802,11 @@ box-shadow: 0 0 25px rgba(0,0,0,0.1);}
           min-height: 250px;
           } 
           .pumps.expertise-fullbox .expertise-box p{min-height: auto;}
+          .pumps.expertise-fullbox .expertise-box p.text-center{text-decoration: underline;}
+          .pumps.expertise-fullbox .expertise-box p.text-center:hover, .pumps.expertise-fullbox .expertise-box p.text-center:focus{
+            color:#005F90;
+          }
+          
           .mixing-blending .expertise-fullbox .expertise-box .image img{width: auto;margin-bottom: 40px;}
           .mixing-blending .expertise-fullbox .expertise-box{width:calc(25% - 30px)}
           .pumps.mixing-blending .expertise-fullbox .expertise-box{width:calc(50% - 30px)}
@@ -831,6 +836,7 @@ box-shadow: 0 0 25px rgba(0,0,0,0.1);}
     background-size: auto, cover;
     padding-top: 100px;
     padding-bottom: 100px;}
+    .industtries-we-serv .assurance img{width:100px;height:100px}
     .industtries-we-serv+.footer{margin-top: 10rem}
 .assurance{
   display: flex;
