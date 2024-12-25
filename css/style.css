@@ -191,6 +191,9 @@ industries-serve-section
   align-items: center;
   justify-content: center}
 
+.products-we-serve.industries-we-serve .box-content>div{width:220px;height: 90px;display: flex;align-items: center;background-color: #ffffff;}
+.products-we-serve.industries-we-serve .box-content>div img{width:180px;margin:0 auto}
+
 .our-team h3{margin-bottom: 15px;}
 .blog-left-content {
   margin-bottom: 40px;
@@ -287,6 +290,13 @@ industries-serve-section
 ------------------------*/
 .pattern{width: 100%; background-size: inherit !important; background-position: 0px 0px; background-repeat: repeat !important; animation: animatedBackground 20s linear infinite;
 -ms-animation: animatedBackground 20s linear infinite; -moz-animation: animatedBackground 20s linear infinite; -webkit-animation: animatedBackground 20s linear infinite;}
+
+/* ------------------------
+    Request-a-lunch
+------------------------*/
+.request-a-lunch.pb-5{padding-bottom: 80px!important;}
+
+
 
 
 /* ------------------------
@@ -791,8 +801,11 @@ box-shadow: 0 0 25px rgba(0,0,0,0.1);}
           padding: 0px 0px 0px 15px;
           min-height: 250px;
           } 
+          .pumps.expertise-fullbox .expertise-box p{min-height: auto;}
           .mixing-blending .expertise-fullbox .expertise-box .image img{width: auto;margin-bottom: 40px;}
           .mixing-blending .expertise-fullbox .expertise-box{width:calc(25% - 30px)}
+          .pumps.mixing-blending .expertise-fullbox .expertise-box{width:calc(50% - 30px)}
+          .electric-pump .expertise-fullbox{justify-content: start;}
           .infrared-technology .expertise-fullbox .expertise-box p, .mixing-blending .expertise-fullbox .expertise-box p, .glass-lined.expertise-fullbox .expertise-box p{min-height: auto}
           .infrared-technology .expertise-fullbox .expertise-box .image{min-height: 255px;text-align: center;display: flex;
                 align-items: center;
@@ -802,6 +815,75 @@ box-shadow: 0 0 25px rgba(0,0,0,0.1);}
 .expertise-fullbox .expertise-box .image img{width:150px}
 .glass-lined.expertise-fullbox .expertise-box{width: calc(50% - 30px);background-color: transparent;}
 .ht-mixer .expertise-fullbox .expertise-box{width: calc(50% - 30px);}
+.flowserve-pumps.products-we-serve.industries-we-serve .box-content>div{width:180px;min-height:180px}
+.flowserve-pumps.agitators-mixers.products-we-serve.industries-we-serve .box-content p{min-height: 45px;}
+.flowserve-pumps.agitators-mixers.products-we-serve.industries-we-serve .box-content span{color: #000000}
+.sensor-telemetry .box-content svg{height: 120px;}
+.challenging-environments{background-image: linear-gradient(#161616bf, #161616bf), url("../images/sensor-telemetry/rugged-logo/dastan-khdir.jpg");
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  padding-top: 100px;
+  padding-bottom: 100px;}
+  .industtries-we-serv.challenging-environments{background-image: linear-gradient(#161616bf, #161616bf), url("../images/tanks/glibert/industries-we-serve/cta-industries-bg-02.jpg");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding-top: 100px;
+    padding-bottom: 100px;}
+    .industtries-we-serv+.footer{margin-top: 10rem}
+.assurance{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 0px;
+}
+.assurance img{width: 50px;height: 50px;object-fit: contain;}
+.assurance .box {
+  flex: 1 1 calc(20% - 15px);
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  text-align: center;
+  padding: 20px 5px;
+}
+.assurance h5{color:#ffffff;margin-top: 20px;font-size: 18px;}
+.ag-wall .our-services .card-body ul{display: block;}
+.product-blocks .expertise-fullbox .expertise-box>div{width:88px;height: 88px;background-color: #f9f9f9;border-radius:100%;padding: 20px;}
+.safety-record-speaks .card{border:none;position: relative;}
+.safety-record-speaks .card::before{position: absolute;content:'';left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(0,0,0,0.5)}
+.safety-record-speaks .card-body{position: absolute;top: 50%;transform: translateY(-50%);left: 0;right: 0;}
+.safety-record-speaks .card-body h2, .safety-record-speaks .card-body a{color: #ffffff;}
+.safety-record-speaks .card-body a{font-size: 22px;text-decoration: underline!important;}
+.our-productts .pumps.expertise-fullbox .expertise-box p{border: none;padding: 15px 0;}
+.our-productts+.product-box .expertise-image img{aspect-ratio: auto;border: none;}
+
+.product-blocks .expertise-fullbox .expertise-box h4{margin-bottom: 20px;margin-top: 10px;}
+.product-blocks .expertise-fullbox .expertise-box p{min-height: auto;}
+.table-flelds table{table-layout: fixed;}
+.table-flelds table thead tr th img{width: 100%;
+    max-width: 150px !important;
+    height: auto;}
+.related-tab .nav-pills{border-bottom: 1px solid rgba(0, 0, 0, 0.7);}
+.related-tab .nav-pills .nav-link{border-bottom: 5px solid transparent;color: #000000;border-radius: 0;}
+.related-tab .nav-pills .nav-link.active{background-color: transparent;border-bottom: 5px solid #56C2F0;color: #56C2F0;}
+.related-tab .tab-content .tab-pane ul{padding: 0 0 0 20px;}
+.related-tab .tab-content .tab-pane:nth-child(3) ul{padding: 0;}
+.related-tab .tab-content .tab-pane:nth-child(3) ul{list-style: none;}
+.related-tab .tab-content .tab-pane:nth-child(3) ul li a i{margin-right: 10px;}
+.related-tab .tab-content .tab-pane:nth-child(3) ul li a{color:#000000}
+.related-tab .tab-content .tab-pane:nth-child(3) h4{border-top:1px solid rgba(0, 0, 0, 0.3);padding-top: 50px;margin-top: 50px;}
+.related-resources .card:after{content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, transparent 60%, #000);}
+.related-resources .card img{height: 400px;object-fit: cover;}
+.related-resources .card .card-body{position: absolute;bottom: 0px;left: 0;z-index: 1;width: 100%;padding: 65px 40px 40px;}
+.related-resources .card .card-body h3, .related-resources .card .card-body p{color: #ffffff;}
 .specifications{border: 1px solid #eee;}
 .specifications thead th, .specifications tr th {
   color: #555;

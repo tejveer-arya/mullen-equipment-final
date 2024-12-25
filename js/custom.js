@@ -87,7 +87,7 @@ function playYouTubeVideo2() {
   if (videoPlayer.style.display === 'none' || !videoPlayer.style.display) {
     videoPlayer.style.display = 'block';
     thumbnail.style.display = 'none';
-    iframe.src = 'https://www.youtube.com/embed/TQ5EVgHf8Is?autoplay=1';
+    iframe.src = 'https://www.youtube.com/embed/ojpkzEqbAyY?autoplay=1';
   } else {
     videoPlayer.style.display = 'none';
     thumbnail.style.display = 'block';
