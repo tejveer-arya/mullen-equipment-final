@@ -964,6 +964,9 @@ box-shadow: 0 0 25px rgba(0,0,0,0.1);}
 	object-fit: cover;
 	border-radius: 30px;
 }
+.info-img.expertise-image img{
+	aspect-ratio:  auto;
+}
 .transfer-image.expertise-image img{
   object-fit: contain;
   aspect-ratio: auto;
@@ -1272,3 +1275,25 @@ transform: rotate(-135deg);
 .pickheaters-products .filter-bar .card-body{border:none}
 .pickheater-products-inner.expertise-fullbox .expertise-box{width: calc(50% - 30px);}
 .pickheater-products-inner.expertise-fullbox .expertise-box p{min-height: auto;}
+
+
+/***************************date picker update********************************/
+.litepicker .container__days .day-item.is-start-date, .litepicker .container__days .day-item.is-end-date{border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #56c2f0;
+}
+.litepicker .container__days .day-item:hover {
+  color: #56c2f0;
+  -webkit-box-shadow: inset 0 0 0 1px #56c2f0;
+  box-shadow: inset 0 0 0 1px #56c2f0;
+  border-radius: 0;
+}
+.litepicker .container__days .day-item.is-in-range{background-color: #005f90;color:#ffffff}
+.litepicker .container__days .day-item.is-start-date:hover, .litepicker .container__days .day-item.is-end-date:hover{color: var(--bs-white)}
+.litepicker .container__months .month-item-header{background-color: #56c2f0;color: var(--bs-white);margin-bottom: 10px;}
+.litepicker .container__months .month-item-header .button-previous-month{color: var(--bs-white)}
+.litepicker .container__months .month-item-header .button-previous-month>svg, .litepicker .container__months .month-item-header .button-previous-month>img, .litepicker .container__months .month-item-header .button-next-month>svg, .litepicker .container__months .month-item-header .button-next-month>img{fill: var(--bs-white);}
+
+

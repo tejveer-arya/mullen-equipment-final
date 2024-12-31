@@ -94,3 +94,44 @@ function playYouTubeVideo2() {
     iframe.src = '';
   }
 }
+
+// page booking starts
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  function formatDate(date) {
+    return (
+      ('0' + date.getDate()).slice(-2) + '/' +
+      ('0' + (date.getMonth() + 1)).slice(-2) + '/' +
+      date.getFullYear()
+    );
+  }
+
+  const today = new Date();
+  const tomorrow = new Date();
+  tomorrow.setDate(today.getDate() + 1);
+
+  const formattedToday = formatDate(today);
+  const formattedTomorrow = formatDate(tomorrow);
+
+  // Set the input value to display the default date range (today - tomorrow)
+  document.getElementById('daterange').value = `${formattedToday} - ${formattedTomorrow}`;
+
+  const picker = new Litepicker({
+    element: document.getElementById('daterange'),
+    numberOfMonths: 2,
+    numberOfColumns: 2,
+    singleMode: false,
+    format: 'DD/MM/YYYY',
+    startDate: today,
+    endDate: tomorrow,
+    autoApply: true,
+    setup: (picker) => {
+      picker.on('selected', (start, end) => {
+        document.getElementById('daterange').value = `${start.format('DD/MM/YYYY')} - ${end.format('DD/MM/YYYY')}`;
+      });
+    }
+  });
+});
+
+// page booking ends
