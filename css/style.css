@@ -1249,6 +1249,8 @@ section.contact_area.inner_section {
 }
 .heat-exchangers.our-services .card-body ul li:before{top: 5px;}
 .heat-exchangers.our-services .card-body ul li:after{top: 10px;}
+.pickheaters-products .box-content a, .pickheaters-products .box-content a:focus{text-decoration: underline!important;color: #000000!important;}
+.pickheaters-products .box-content img{height: 175px;object-fit: contain;}
 .pickheaters-products .filter-bar .btn-primary{display: flex;color: #333333;border-top:1px solid transparent;border-right:1px solid transparent;border-left:1px solid transparent;border-bottom:1px solid rgba(0,0,0,0.1);}
 .pickheaters-products .btn-primary:hover, .pickheaters-products .btn-primary:focus{background-color: transparent;}
 .pickheaters-products .filter-bar .btn-primary:before{
