@@ -168,6 +168,8 @@
     .breadcrumb {padding: 10px; font-size: 13px; line-height: 26px;}
     .banner h5{font-size: 18px; letter-spacing: 10px;}
     .logo img{height: 40px;}
+    .brand_slider.owl-carousel{padding: 0 50px;}
+    .brand_slider.owl-carousel .owl-dots{display: none;}
     
     /*Button*/
     .btn {padding: 10px 20px; font-size: 13px;}
