@@ -180,5 +180,10 @@ transform: scale(1.2);
 	.whychoose_inner .d-flex .align-self-start:before {top: 7px;right: 7px;bottom: 7px;left: 7px;}
 	.whychoose_inner .d-flex .align-self-start img {width: 46px;}
 	.whychoose_inner .d-flex h5{margin-top: 10px; }
+    .life-at-mullen .card {
+        padding: 20px 15px;
+        width: 480px;
+        max-width: 100%;
+    }
 	.whychoose_inner .d-flex h5 br{display: none;}
 }
