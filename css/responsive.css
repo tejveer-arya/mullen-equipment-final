@@ -101,6 +101,7 @@
     .contact-3 .iframe-h-2{height: 300px !important;}
     .contact-3 .contact-box {position: inherit; top: inherit; transform: inherit;}
     .mullen-images{margin-top: 35px;float: none;}
+    .sensortelemetry.assurance .box{flex: 1 1 calc(50% - 15px);}
     
     }
     
@@ -119,7 +120,7 @@
     .feuture-main [class*="col-"]:nth-child(5) .featured-item::after{border-bottom: 1px dashed #dddddd;}
     .feuture-bottom .featured-item.bottom-icon{border-right: none;}
     .feuture-bottom .row:nth-child(2) [class*='col-']:last-child .featured-item.bottom-icon{border-top: none;}
-    
+    .heat-trannsfer .transfer-image, .abel-pummps .transfer-image{flex-direction: column;}
     
     /*Counter*/
     .counter {margin: 15px 0 !important;}
@@ -139,7 +140,7 @@
     .iframe-h{height: 300px !important;}
     .html5-video video {width: auto;}
     .our-services .card-body img{height: auto;object-fit: cover;border-radius: 1.25rem;}
-    
+    .ruggedtelemetry.product-box.expertise-box .expertise-content{padding: 0 0 40px 0;}
     /*Footer*/
     .footer {padding-top: 6rem; margin-top: 0;}
     .footer-contact{position: inherit; transform: inherit;}
@@ -198,5 +199,6 @@
     .contact-form{width: 100%; padding: 60px 20px 20px;}
     .contact-form h2 {margin-bottom: 15px !important;}
     .contact-form .form-group{margin-bottom: 10px;}
+    .sensortelemetry.assurance .box{flex: 1 1 calc(100%);}
     
     }

@@ -49,6 +49,25 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       }
     });
+    document.querySelectorAll('.header .service-downlist .dropdown-menu li a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    const targetId = this.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+      e.preventDefault();
+      const headerHeight = document.querySelector('.header').offsetHeight; // Replace with your header class
+      const elementPosition = targetElement.offsetTop;
+      const offsetPosition = elementPosition - headerHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
 });
 // $(document).on('click', '#search', function () {
 //     $(".search-input-area").addClass("show");

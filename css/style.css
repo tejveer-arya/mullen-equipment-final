@@ -88,11 +88,12 @@ section{padding: 80px 0;}
     background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     }
   .latest-news .news-left{background-color: rgba(86,194,240,0.2);padding: 30px;height: 100%;}
+  .latest-news .news-left a{margin-top:5px;display: inline-block;color:#025c8b;text-decoration: underline!important;}
   .latest-news .news-left h3{margin-bottom: 15px;font-weight: 600;}
   .latest-news .news-left ul li p{background-color: transparent;padding: 0;margin: 0;}
   .latest-news .news-left p{margin: 30px 0 0 0;background-color: rgba(255, 255, 255, 0.5);padding: 15px;}
   .latest-news .news-left ul{list-style: none;padding: 0;margin: 0;}
-  .latest-news .news-left ul li h4{margin-bottom: 10px;}
+  .latest-news .news-left ul li h4{margin-bottom: 5px;}
   .latest-news .news-left ul li{padding: 15px 0;border-top: 1px solid rgba(90, 90, 90, 0.22);}
 
 .line-h-2{line-height: 1.6;}
@@ -144,7 +145,7 @@ industries-serve-section
     font-size: 1.2em;
     border: 1px solid rgba(255,255,255,0.5);}
 .industries-we-serve .row div[class*='col']:hover{border: 1px solid rgba(255,255,255,1);position: relative;}
-.industries-we-serve .box-content{position: relative;text-align: center;width:100%;padding: 30px;}
+.industries-we-serve .box-content{position: relative;text-align: center;width:100%;padding: 20px;}
 .industries-we-serve .box-content h5{color: #ffffff;padding-top: 20px;margin:0}
 .industries-we-serve .box-content img{width:60px;opacity: 0.5;}
 .industries-we-serve .row div[class*='col']:hover .box-content img{opacity: 1;position: relative;}
@@ -156,6 +157,13 @@ industries-serve-section
 .what-we-do.industries-we-serve .row div[class*='col'] {
   flex: 1 1 20%;
 }
+.magna-safe .assurance .box i{font-size:90px}
+.magna-safe .assurance{margin: 0 -15px;}
+.magna-safe+.flowserve-pumps.products-we-serve.industries-we-serve .box-content>div {
+  width: 195px;
+  min-height: 300px;
+}
+.magna-safe+.flowserve-pumps h2{color: #000000;}
 
 .what-we-do.industries-we-serve .choose_list{  border-radius: 20px;
   filter: drop-shadow(0px 5px 20px rgba(189, 202, 202, 0.3));
@@ -182,6 +190,12 @@ industries-serve-section
   min-width: 280px;
   align-items: start;
 }
+.mixing-blendingg.products-we-serve.industries-we-serve .row div[class*='col']{
+  flex: 1 1 20%;
+  min-width: 235px;
+  align-items: start;
+}
+.mixing-blendingg.products-we-serve.industries-we-serve .row{gap: 25px;}
 .products-we-serve.industries-we-serve .box-content{box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);}
 .products-we-serve.industries-we-serve .box-content img{width: 100%;opacity: 1;}
 .products-we-serve.industries-we-serve .box-content h5{
@@ -787,6 +801,19 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
 .expertise-content-header{
 	margin-bottom: 0px;
 }
+.heat-trannsfer .transfer-image, .abel-pummps .transfer-image{display: flex;gap:20px}
+.heat-trannsfer .transfer-image img{height: 500px;max-width:100%}
+.heat-trannsfer+.products-we-serve.industries-we-serve .box-content>div {
+  width: 100%;
+}
+.heat-trannsfer+.products-we-serve.industries-we-serve .row div[class*='col'] {
+  flex: 1 1 25%;
+  min-width: 290px;
+}
+
+.sensortelemetry.assurance .box{flex: 1 1 calc(33.333% - 15px);background-color: #efefef;padding: 20px;}
+.sensortelemetry.assurance img{width: auto;height: auto;}
+.heat-trannsfer+.industries-we-serve .box-content{padding:30px}
 .product-box.expertise-box{background-color: transparent;}
 .product-box.light-bg{background-color: #ececec;}
 .product-box.expertise-box .expertise-content{background-color: transparent;border-radius: 0;padding: 0 40px 0 0;}
@@ -831,7 +858,7 @@ box-shadow: 0 0 25px rgba(0,0,0,0.1);}
 .flowserve-pumps.products-we-serve.industries-we-serve .box-content>div{width:180px;min-height:180px}
 .flowserve-pumps.agitators-mixers.products-we-serve.industries-we-serve .box-content p{min-height: 45px;}
 .flowserve-pumps.agitators-mixers.products-we-serve.industries-we-serve .box-content span{color: #000000}
-.sensor-telemetry .box-content svg{height: 120px;}
+.sensor-telemetry .box-content svg{height: 130px;}
 .challenging-environments{background-image: linear-gradient(#161616bf, #161616bf), url("../images/sensor-telemetry/rugged-logo/dastan-khdir.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
