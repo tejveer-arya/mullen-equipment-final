@@ -173,6 +173,7 @@ transform: scale(1.2);
 	.whychoose_inner .d-flex .align-self-start{margin-left: 0}
 	.whychoose_inner .row {margin-left: -15px;margin-right: -15px;}
 	.whychoose_inner .row > div {padding-left: 15px;padding-right: 15px;}
+    .content-inner-2.service-area-1 .row div[class*='col-']:nth-child(2), .content-inner-2 .row div[class*='col-']:nth-child(4), .content-inner-2 .row div[class*='col-']:nth-child(5), .content-inner-2 .row div[class*='col-']:nth-child(6){margin-bottom: 24px;}
 }
 @media (max-width: 479px){
 	.whychoose_inner .d-flex .align-self-start {max-width: 120px;max-height: 120px;min-width: 120px;min-height: 120px;line-height: 120px;}
