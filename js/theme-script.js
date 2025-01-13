@@ -157,7 +157,10 @@ $('.brand_slider').owlCarousel({
       },
       992:{
           items:4
-      }
+      },
+      1280:{
+        items:5
+    }
   }
 });
 
