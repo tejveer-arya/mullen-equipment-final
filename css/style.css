@@ -563,6 +563,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .event-list .event-image{width: 120px;}
+.event-list .event-image .eastec{background-color: #0b0c1d;padding: 10px;margin-top: 5px;}
 .event-list .card>.d-flex{gap: 20px;flex-wrap: nowrap;}
 .event-list .event-date h5{text-align: center;}
 .event-list .event-date span{display: block;font-size: 18px;}
@@ -578,7 +579,7 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
 
 .event-details {
   margin: 12px 0;
-  flex-grow: 1; /* Push the button to the bottom */
+  flex: 1 1 20%; /* Push the button to the bottom */
 }
 
 .event-action button {

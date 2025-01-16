@@ -49,25 +49,35 @@ document.addEventListener('DOMContentLoaded', function () {
         });
       }
     });
-    document.querySelectorAll('.header .service-downlist .dropdown-menu li a').forEach(link => {
-  link.addEventListener('click', function (e) {
-    const targetId = this.getAttribute('href').substring(1);
-    const targetElement = document.getElementById(targetId);
-    
-    if (targetElement) {
-      e.preventDefault();
-      const headerHeight = document.querySelector('.header').offsetHeight; // Replace with your header class
-      const elementPosition = targetElement.offsetTop;
-      const offsetPosition = elementPosition - headerHeight;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-  });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+document.querySelectorAll('.service-downlist .dropdown-menu .nav-link').forEach(link => {
+  link.addEventListener('click', function (event) {
+      const targetSection = this.getAttribute('href');
+      const targetUrl = `services.html${targetSection}`;
+
+      if (window.location.pathname.includes('services.html')) {
+        // Smooth scrolling with offset if already on the services page
+        event.preventDefault();
+        const targetElement = document.querySelector(targetSection);
+        if (targetElement) {
+            const headerOffset = 80; // Adjust this value to match your header height
+            const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+            const offsetPosition = elementPosition - headerOffset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    }  else {
+          // Redirect if on a different page
+          window.location.href = targetUrl;
+      }
+  });
+});
 });
 // $(document).on('click', '#search', function () {
 //     $(".search-input-area").addClass("show");
