@@ -202,5 +202,6 @@
     .contact-form h2 {margin-bottom: 15px !important;}
     .contact-form .form-group{margin-bottom: 10px;}
     .sensortelemetry.assurance .box{flex: 1 1 calc(100%);}
+    .secondary-footer .copyright span{display: block;text-align: center;}
     
     }
