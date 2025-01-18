@@ -258,7 +258,7 @@ a, i, .btn, button, img, span, .navbar-nav .nav-link:before, .dropdown-item, .na
 .footer{padding-top: 8rem; margin-top: 6rem;box-shadow: 0 0 10px rgba(0,0,0,0.1);}
 .footer:before{position: absolute;content:'';bottom: 0;background-image: url(../images/footer-img.png);top:auto;left:0;right:0;top:auto;opacity: 0.04;height: 250px;background-size: contain;}
 .primary-footer{padding: 50px 0;}
-.secondary-footer{padding: 15px 0; background: #191919; color: #ffffff;}
+.secondary-footer{padding: 15px 0; background: #191919; color: #ffffff;position: relative;z-index: 2}
 .footer-logo img{height: 50px;}
 .primary-footer, .primary-footer a{color: #ffffff;}
 .primary-footer h5{color: #000000; margin-bottom: 20px; text-transform: uppercase;}

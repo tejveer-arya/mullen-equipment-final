@@ -205,6 +205,10 @@ industries-serve-section
   align-items: center;
   justify-content: center}
 
+  .products-we-serve.industries-we-serve .box-content p.blog{
+    color: #6b7a7a;
+  }
+
 .products-we-serve.industries-we-serve .box-content>div{width:220px;height: 90px;display: flex;align-items: center;background-color: #ffffff;}
 .products-we-serve.industries-we-serve .box-content>div img{width:180px;margin:0 auto}
 
